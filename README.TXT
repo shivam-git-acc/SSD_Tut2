@@ -1,7 +1,6 @@
 CS6.302 - Software System Development
 Lab - 2: SQL - Stored Procedures and Cursors
-Student: [Your Roll Number]
-Submission Date: 16 Aug 2025
+Student: 2025202030
 
 ===============================================
 EXECUTION STEPS:
@@ -44,7 +43,7 @@ Execute the scripts in the following sequence:
    - Uses DISTINCT to get only subscribers with watch history
    - Uses session variable @curr_subid to pass subscriber ID between procedures
 
-5. q5.sql - Enhanced SendWatchTimeReport() Procedure
+5. q5.sql - Another version of SendWatchTimeReport() Procedure
    - Creates comprehensive version that loops through ALL subscribers
    - Uses RIGHT JOIN to include subscribers even without watch history
    - Shows complete watch history report for all subscribers
@@ -59,21 +58,17 @@ Execution Notes:
 Expected Output:
 - q1.sql: List of all subscriber names
 - q2.sql: Watch history for subscriber ID 1 (Emily Clark)
-- q3.sql: Updated subscribers table with new subscriber "DoeSMith"
+- q3.sql: Updated subscribers table with new subscriber "Meghan Markle"
 - q4.sql: Watch history report for subscribers who have watched content
 - q5.sql: Complete watch history report for ALL subscribers
 
-===============================================
-GIT REPOSITORY LINK:
-===============================================
-
-[IMPORTANT: Replace with your actual git repository link]
-https://github.com/[your-username]/[repository-name]
+==================================================================
+GIT REPOSITORY LINK:https://github.com/shivam-git-acc/SSD_Tut2.git
+==================================================================
 
 Repository contains:
 - All 5 SQL script files (q1.sql, q2.sql, q3.sql, q4.sql, q5.sql)
 - This README.txt file
-- Assignment PDF (Activity-1.pdf)
 
 ===============================================
 ADDITIONAL NOTES:
