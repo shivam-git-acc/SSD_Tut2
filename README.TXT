@@ -39,7 +39,8 @@ Execute the scripts in the following sequence:
 
 4. q4.sql - SendWatchTimeReport() Procedure
    - Creates modified GetWatchHistoryBySubscriber() without parameters
-   - Creates SendWatchTimeReport() that calls GetWatchHistoryBySubscriber() for all subscribers who have watched something
+   - Creates SendWatchTimeReport() that calls GetWatchHistoryBySubscriber() 
+     for all subscribers who have watched something
    - Uses DISTINCT to get only subscribers with watch history
    - Uses session variable @curr_subid to pass subscriber ID between procedures
 
