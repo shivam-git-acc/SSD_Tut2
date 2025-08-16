@@ -1,5 +1,5 @@
 CS6.302 - Software System Development
-Lab - 2: SQL - Stored Procedures and Cursors
+TUTORIAL - 2: SQL - Stored Procedures and Cursors
 Student: 2025202030
 
 ===============================================
@@ -69,7 +69,7 @@ GIT REPOSITORY LINK:https://github.com/shivam-git-acc/SSD_Tut2.git
 
 Repository contains:
 - All 5 SQL script files (q1.sql, q2.sql, q3.sql, q4.sql, q5.sql)
-- This README.txt file
+- This README.TXT file
 
 ===============================================
 ADDITIONAL NOTES:
